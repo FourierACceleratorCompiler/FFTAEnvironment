@@ -1,0 +1,6 @@
+This is a reproduction environment for the FFTA Accelerator and the ADSP SC-589 development board.
+
+To run this development environment, load it into MCUExpresso IDE, and use the defines in Hello_Core0/src/Hello_Core0.h *and* Hello_Core1/src/Hello_Core1.h to run each project.
+
+Each item of code is licensed with the project it came from.  Projects are named by the github repository from which
+they were extracted, using the naming scheme <owner>_<repo>
