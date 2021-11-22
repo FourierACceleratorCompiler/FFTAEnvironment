@@ -1,0 +1,1105 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Analog Devices/CrossCore Embedded Studio 2.9.4/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Fri Nov 19 00:59:26 2021
+'>
+<MSG id='045FDE08' mid='li3201' type='Informational' suppressed=''>
+<TEXT><![CDATA[Successfully eliminated 611364 bytes in processor 'SC589_CORE_1'
+]]></TEXT>
+<EXTENDED_INFO><![CDATA[Eliminated object (__eh_gdt., __eh_gdt.+0x4) of size 4 bytes from 'app_startup.doj(.gdt)'
+Eliminated object (___eh_gdt, ___eh_gdt+0x1) of size 5 bytes from 'app_startup.doj(.gdt32)'
+Eliminated object (__argv_string., __argv_string.+0x1) of size 1 bytes from 'src\Hello_Core1.doj(seg_dmda)'
+Eliminated object (accel_cfft_wrapper., .accel_cfft_wrapper..end) of size 206 bytes from 'src\adi_interface.doj(seg_swco)'
+Eliminated object (reverseBits., .reverseBits..end) of size 206 bytes from 'src\clib\fft_synth\lib.doj(seg_swco)'
+Eliminated object (facc_malloc_count., facc_malloc_count.+0x4) of size 4 bytes from 'src\clib\synthesizer.doj(seg_dmda)'
+Eliminated object (pointer_map., pointer_map.+0x40) of size 64 bytes from 'src\clib\synthesizer.doj(seg_dmda)'
+Eliminated object (facc_malloc., .facc_malloc..end) of size 130 bytes from 'src\clib\synthesizer.doj(seg_swco)'
+Eliminated object (facc_free., .facc_free..end) of size 268 bytes from 'src\clib\synthesizer.doj(seg_swco)'
+Eliminated object (.epcbss, .epcbss.end) of size 262224 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_dmda)'
+Eliminated object (AcceleratorTotalNanos., AcceleratorTotalNanos.+0x4) of size 4 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_dmda)'
+Eliminated object (.sTime12.11, .sTime12.11+0xd) of size 13 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_dmda)'
+Eliminated object (.sAccTim.12, .sAccTim.12+0x10) of size 16 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_dmda)'
+Eliminated object (AcceleratorStart., AcceleratorStart.+0x8) of size 8 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_dmda)'
+Eliminated object (StartAcceleratorTimer., .StartAcceleratorTimer..end) of size 58 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_swco)'
+Eliminated object (StopAcceleratorTimer., .StopAcceleratorTimer..end) of size 80 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_swco)'
+Eliminated object (fft_1d_accel_internal., .fft_1d_accel_internal..end) of size 422 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_swco)'
+Eliminated object (fft_1d_accel., .fft_1d_accel..end) of size 26 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_swco)'
+Eliminated object (run_accelerator., .run_accelerator..end) of size 456 bytes from 'src\omnister_fftp\accelerated_ffta.doj(seg_swco)'
+Eliminated object (omnister_fftp_sizes., omnister_fftp_sizes.+0x24) of size 36 bytes from 'src\omnister_fftp\defines.doj(seg_dmda)'
+Eliminated object (omnister_fftp_generate_inputs., .omnister_fftp_generate_inputs..end) of size 86 bytes from 'src\omnister_fftp\input_generator.doj(seg_swco)'
+Eliminated object (snap2., .snap2..end) of size 132 bytes from 'src\omnister_fftp\self_contained_code.doj(seg_swco)'
+Eliminated object (new_double., .new_double..end) of size 34 bytes from 'src\omnister_fftp\self_contained_code.doj(seg_swco)'
+Eliminated object (new_complex., .new_complex..end) of size 34 bytes from 'src\omnister_fftp\self_contained_code.doj(seg_swco)'
+Eliminated object (fft_1d., .fft_1d..end) of size 748 bytes from 'src\omnister_fftp\self_contained_code.doj(seg_swco)'
+Eliminated object (.sTime12.0, .sTime12.0+0xd) of size 13 bytes from 'src\omnister_fftp\wrapper.doj(seg_dmda)'
+Eliminated object (.sAccTim.1, .sAccTim.1+0x10) of size 16 bytes from 'src\omnister_fftp\wrapper.doj(seg_dmda)'
+Eliminated object (run_original., .run_original..end) of size 434 bytes from 'src\omnister_fftp\wrapper.doj(seg_swco)'
+Eliminated object (_adi_osal_gnSchedulerLockCnt., _adi_osal_gnSchedulerLockCnt.+0x4) of size 4 bytes from 'libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)'
+Eliminated object (___divrem_u32, .___divrem_u32.end) of size 148 bytes from 'libcc.dlb[divrem_u32.doj](seg_pmco)'
+Eliminated object (accel_twiddles_32768., accel_twiddles_32768.+0x40000) of size 262144 bytes from 'libfftacc.dlb[accel_twiddles_32768.doj](seg_pmda)'
+Eliminated object (.snotasu.0, .snotasu.0+0x23) of size 35 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.1, .saccelc.1+0x54) of size 84 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.2, .saccelc.2+0x191) of size 401 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.3, .saccelc.3+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.4, .saccelc.4+0xe4) of size 228 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.5, .saccelc.5+0x31) of size 49 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.6, .saccelc.6+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.7, .saccelc.7+0x9e) of size 158 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.8, .saccelc.8+0x31) of size 49 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.9, .saccelc.9+0x54) of size 84 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.10, .saccelc.10+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.11, .saccelc.11+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.12, .saccelc.12+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.13, .saccelc.13+0xe5) of size 229 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.14, .saccelc.14+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.15, .saccelc.15+0xe5) of size 229 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.16, .saccelc.16+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (.saccelc.17, .saccelc.17+0x33) of size 51 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_dmda)'
+Eliminated object (accel_cfft_large., .accel_cfft_large..end) of size 3576 bytes from 'libfftacc.dlb[accel_cfft_large.doj](seg_swco)'
+Eliminated object (.snotasu.0, .snotasu.0+0x23) of size 35 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.1, .saccelc.1+0x175) of size 373 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.2, .saccelc.2+0x17b) of size 379 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.3, .saccelc.3+0x51) of size 81 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.4, .saccelc.4+0x30) of size 48 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.5, .saccelc.5+0x42) of size 66 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.6, .saccelc.6+0x30) of size 48 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (.saccelc.7, .saccelc.7+0x32) of size 50 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_dmda)'
+Eliminated object (accel_cfft_small., .accel_cfft_small..end) of size 1686 bytes from 'libfftacc.dlb[accel_cfft_small.doj](seg_swco)'
+Eliminated object (malloc., .malloc..end) of size 36 bytes from 'libc.dlb[malloc_ba.doj](seg_swco)'
+Eliminated object (free., .free..end) of size 182 bytes from 'libc.dlb[free_ba.doj](seg_swco)'
+Eliminated object (__Processor_cycles_per_sec, __Processor_cycles_per_sec+0x1) of size 5 bytes from 'libc.dlb[proccycles.doj](seg_dmda)'
+Eliminated object (__floatdisf., .__floatdisf..end) of size 244 bytes from 'libcc.dlb[floatdisf_ba.doj](seg_swco)'
+Eliminated object (___lib_fdiv, .___lib_fdiv.end) of size 156 bytes from 'libcc.dlb[lib_fdiv.doj](seg_swco)'
+Eliminated object (_printf32., ._printf32..end) of size 170 bytes from 'libio.dlb[printf_c08_d32.doj](seg_swco)'
+Eliminated object (log10f., .log10f..end) of size 250 bytes from 'libc.dlb[log10f_ba.doj](seg_pmco)'
+Eliminated object (powf., .powf..end) of size 784 bytes from 'libc.dlb[powf_ba.doj](seg_pmco)'
+Eliminated object (sinhf., .sinhf..end) of size 468 bytes from 'libc.dlb[sinhf_ba.doj](seg_pmco)'
+Eliminated object (_cosf, ._cosf.end) of size 200 bytes from 'libc.dlb[sinf_XI.doj](seg_pmco)'
+Eliminated object (_sinf, ._sinf.end) of size 206 bytes from 'libc.dlb[sinf_XI.doj](seg_pmco)'
+Eliminated object (adi_sec_SetCOPPeriod., .adi_sec_SetCOPPeriod..end) of size 22 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetSysResetDelay., .adi_sec_SetSysResetDelay..end) of size 22 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetFaultDelay., .adi_sec_SetFaultDelay..end) of size 22 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SelectTriggerEvent., .adi_sec_SelectTriggerEvent..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_ClearFault., .adi_sec_ClearFault..end) of size 28 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_GetFaultID., .adi_sec_GetFaultID..end) of size 40 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableCOPMode., .adi_sec_EnableCOPMode..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableFaultInput., .adi_sec_EnableFaultInput..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableSystemReset., .adi_sec_EnableSystemReset..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableTriggerOutput., .adi_sec_EnableTriggerOutput..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableFaultOutput., .adi_sec_EnableFaultOutput..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableSFI., .adi_sec_EnableSFI..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetPriorityLevels., .adi_sec_SetPriorityLevels..end) of size 66 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetUnGroupedMask., .adi_sec_SetUnGroupedMask..end) of size 78 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetGroupMask., .adi_sec_SetGroupMask..end) of size 66 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetPriorityMask., .adi_sec_SetPriorityMask..end) of size 86 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_ClearWFIStatus., .adi_sec_ClearWFIStatus..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_GetWFIStatus., .adi_sec_GetWFIStatus..end) of size 84 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_WaitForIdle., .adi_sec_WaitForIdle..end) of size 58 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_ClearPendStatus., .adi_sec_ClearPendStatus..end) of size 60 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_GetSIDChannelID., .adi_sec_GetSIDChannelID..end) of size 94 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetSIDGrouping., .adi_sec_SetSIDGrouping..end) of size 94 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_SetPriority., .adi_sec_SetPriority..end) of size 96 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableError., .adi_sec_EnableError..end) of size 80 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_EnableFault., .adi_sec_EnableFault..end) of size 80 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_Raise., .adi_sec_Raise..end) of size 64 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_GetAddrError., .adi_sec_GetAddrError..end) of size 134 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_GetLockWriteError., .adi_sec_GetLockWriteError..end) of size 134 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (adi_sec_RegisterErrorHandler., .adi_sec_RegisterErrorHandler..end) of size 120 bytes from 'libssl.dlb[adi_sec.doj](seg_swco)'
+Eliminated object (.sMCAPIS.1, .sMCAPIS.1+0xe) of size 14 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIP.2, .sMCAPIP.2+0xe) of size 14 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIT.3, .sMCAPIT.3+0xe) of size 14 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.4, .sMCAPIE.4+0x14) of size 20 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.5, .sMCAPIE.5+0x19) of size 25 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.6, .sMCAPIE.6+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.7, .sMCAPIE.7+0x1a) of size 26 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.8, .sMCAPIE.8+0x1b) of size 27 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.9, .sMCAPIE.9+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.10, .sMCAPIE.10+0x1b) of size 27 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.11, .sMCAPIE.11+0x12) of size 18 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.12, .sMCAPIE.12+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.13, .sMCAPIE.13+0x16) of size 22 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.14, .sMCAPIE.14+0x19) of size 25 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.15, .sMCAPIE.15+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.16, .sMCAPIE.16+0x18) of size 24 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.17, .sMCAPIE.17+0x16) of size 22 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.18, .sMCAPIE.18+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.19, .sMCAPIE.19+0x15) of size 21 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.20, .sMCAPIE.20+0x1c) of size 28 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.21, .sMCAPIE.21+0x14) of size 20 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.22, .sMCAPIE.22+0x13) of size 19 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.23, .sMCAPIE.23+0x15) of size 21 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.24, .sMCAPIE.24+0x1c) of size 28 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.25, .sMCAPIE.25+0x18) of size 24 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.26, .sMCAPIE.26+0x13) of size 19 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.27, .sMCAPIE.27+0x18) of size 24 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.28, .sMCAPIE.28+0x14) of size 20 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.29, .sMCAPIE.29+0x14) of size 20 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.30, .sMCAPIE.30+0x19) of size 25 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.31, .sMCAPIE.31+0x19) of size 25 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.32, .sMCAPIE.32+0x1b) of size 27 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.33, .sMCAPIE.33+0x1c) of size 28 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.34, .sMCAPIE.34+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.35, .sMCAPIE.35+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.36, .sMCAPIE.36+0x13) of size 19 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.37, .sMCAPIE.37+0x13) of size 19 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.38, .sMCAPIE.38+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.39, .sMCAPIE.39+0x13) of size 19 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.40, .sMCAPIE.40+0x16) of size 22 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.41, .sMCAPIE.41+0x14) of size 20 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.42, .sMCAPIE.42+0x1a) of size 26 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.43, .sMCAPIE.43+0x18) of size 24 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.44, .sMCAPIE.44+0x1c) of size 28 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.45, .sMCAPIE.45+0x17) of size 23 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIE.46, .sMCAPIE.46+0x12) of size 18 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sMCAPIS.47, .sMCAPIS.47+0x15) of size 21 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.sUNKNOW.48, .sUNKNOW.48+0x8) of size 8 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (.SWITCH.49, .SWITCH.49.end) of size 188 bytes from 'libssl.dlb[mcapi.doj](seg_dmda)'
+Eliminated object (mcapi_display_state., .mcapi_display_state..end) of size 22 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_set_debug_level., .mcapi_set_debug_level..end) of size 22 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_finalize., .mcapi_finalize..end) of size 86 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_node_set_attribute., .mcapi_node_set_attribute..end) of size 226 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_node_get_attribute., .mcapi_node_get_attribute..end) of size 188 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_node_init_attributes., .mcapi_node_init_attributes..end) of size 82 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_domain_id_get., .mcapi_domain_id_get..end) of size 94 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_node_id_get., .mcapi_node_id_get..end) of size 94 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (mcapi_display_status., .mcapi_display_status..end) of size 922 bytes from 'libssl.dlb[mcapi.doj](seg_swco)'
+Eliminated object (_adi_osal_InitInterrupts., ._adi_osal_InitInterrupts..end) of size 16 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_MemAlloc., ._adi_osal_MemAlloc..end) of size 108 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (_adi_osal_MemFree., ._adi_osal_MemFree..end) of size 48 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (adi_osal_DeactivateHandler., .adi_osal_DeactivateHandler..end) of size 66 bytes from 'libosal_noos.dlb[adi_osal_arch_c.doj](seg_swco)'
+Eliminated object (adi_large_fft_data_table., adi_large_fft_data_table.+0x160) of size 352 bytes from 'libfftacc.dlb[accel.doj](seg_dmda)'
+Eliminated object (accel_fft_error_handler., .accel_fft_error_handler..end) of size 4 bytes from 'libfftacc.dlb[accel_fft_set_error_handler.doj](seg_dmda)'
+Eliminated object (accel_fft_set_error_handler., .accel_fft_set_error_handler..end) of size 16 bytes from 'libfftacc.dlb[accel_fft_set_error_handler.doj](seg_swco)'
+Eliminated object (gFFTDevices., gFFTDevices.+0x1c) of size 28 bytes from 'libdrv.dlb[adi_fft.doj](seg_dmda)'
+Eliminated object (.sASSERT.0, .sASSERT.0+0xb6) of size 182 bytes from 'libdrv.dlb[adi_fft.doj](seg_dmda)'
+Eliminated object (ValidateHandle., .ValidateHandle..end) of size 102 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (ValidateBuffer., .ValidateBuffer..end) of size 78 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (ValidateFrame., .ValidateFrame..end) of size 166 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (InitializeBuffers., .InitializeBuffers..end) of size 240 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Close., .adi_fft_Close..end) of size 316 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Enable., .adi_fft_Enable..end) of size 132 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Reset., .adi_fft_Reset..end) of size 90 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Open., .adi_fft_Open..end) of size 980 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_IsRxBufferAvailable., .adi_fft_IsRxBufferAvailable..end) of size 162 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_IsTxBufferAvailable., .adi_fft_IsTxBufferAvailable..end) of size 162 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_GetHWErrorStatus., .adi_fft_GetHWErrorStatus..end) of size 158 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (DMACallback., .DMACallback..end) of size 322 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (StatusIntHandler., .StatusIntHandler..end) of size 186 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (EnableDataFlow., .EnableDataFlow..end) of size 366 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_EnableRx., .adi_fft_EnableRx..end) of size 206 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_EnableTx., .adi_fft_EnableTx..end) of size 198 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (SubmitBuffer., .SubmitBuffer..end) of size 420 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxBuffer., .adi_fft_SubmitTxBuffer..end) of size 232 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxBuffer., .adi_fft_SubmitRxBuffer..end) of size 250 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxFrame., .adi_fft_SubmitTxFrame..end) of size 288 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxFrame., .adi_fft_SubmitRxFrame..end) of size 296 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (GetBuffer., .GetBuffer..end) of size 212 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_GetRxBuffer., .adi_fft_GetRxBuffer..end) of size 272 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_GetTxBuffer., .adi_fft_GetTxBuffer..end) of size 176 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SynchronizeTx., .adi_fft_SynchronizeTx..end) of size 180 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SynchronizeRx., .adi_fft_SynchronizeRx..end) of size 186 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_IsSynchronizeTxReady., .adi_fft_IsSynchronizeTxReady..end) of size 174 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_IsSynchronizeRxReady., .adi_fft_IsSynchronizeRxReady..end) of size 192 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (SetDMATransferSize., .SetDMATransferSize..end) of size 296 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SetTxDmaTransferSize., .adi_fft_SetTxDmaTransferSize..end) of size 110 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SetRxDmaTransferSize., .adi_fft_SetRxDmaTransferSize..end) of size 118 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (CompleteBlockingBufferTxn., .CompleteBlockingBufferTxn..end) of size 542 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Read., .adi_fft_Read..end) of size 290 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_Write., .adi_fft_Write..end) of size 272 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_ReadFrame., .adi_fft_ReadFrame..end) of size 336 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_WriteFrame., .adi_fft_WriteFrame..end) of size 328 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (SubmitDescriptorChain., .SubmitDescriptorChain..end) of size 262 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxDescriptorChain3., .adi_fft_SubmitTxDescriptorChain3..end) of size 206 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxDescriptorChain3., .adi_fft_SubmitRxDescriptorChain3..end) of size 214 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxDescriptorChain4., .adi_fft_SubmitTxDescriptorChain4..end) of size 188 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxDescriptorChain4., .adi_fft_SubmitRxDescriptorChain4..end) of size 196 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxDescriptorChain5., .adi_fft_SubmitTxDescriptorChain5..end) of size 170 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxDescriptorChain5., .adi_fft_SubmitRxDescriptorChain5..end) of size 178 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxDescriptorChain6., .adi_fft_SubmitTxDescriptorChain6..end) of size 160 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxDescriptorChain6., .adi_fft_SubmitRxDescriptorChain6..end) of size 168 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitTxDescriptorChain7., .adi_fft_SubmitTxDescriptorChain7..end) of size 150 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_SubmitRxDescriptorChain7., .adi_fft_SubmitRxDescriptorChain7..end) of size 158 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_RegisterTxCallback., .adi_fft_RegisterTxCallback..end) of size 150 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_RegisterRxCallback., .adi_fft_RegisterRxCallback..end) of size 170 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_RegisterTxTriggerMaster., .adi_fft_RegisterTxTriggerMaster..end) of size 138 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_RegisterRxTriggerMaster., .adi_fft_RegisterRxTriggerMaster..end) of size 138 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_TriggerTx., .adi_fft_TriggerTx..end) of size 144 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (adi_fft_TriggerRx., .adi_fft_TriggerRx..end) of size 144 bytes from 'libdrv.dlb[adi_fft.doj](seg_swco)'
+Eliminated object (accel_cfft_seq_large_instrs., accel_cfft_seq_large_instrs.+0x7c) of size 124 bytes from 'libfftacc.dlb[accel_cfft_seq_large.doj](seg_dmda)'
+Eliminated object (accel_cfft_seq_large., .accel_cfft_seq_large..end) of size 548 bytes from 'libfftacc.dlb[accel_cfft_seq_large.doj](seg_swco)'
+Eliminated object (.sgeneri.0, .sgeneri.0+0x44) of size 68 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_dmda)'
+Eliminated object (.sgeneri.1, .sgeneri.1+0x67) of size 103 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_dmda)'
+Eliminated object (.sgeneri.2, .sgeneri.2+0x7a) of size 122 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_dmda)'
+Eliminated object (.sgeneri.3, .sgeneri.3+0x66) of size 102 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_dmda)'
+Eliminated object (.sgeneri.4, .sgeneri.4+0x111) of size 273 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_dmda)'
+Eliminated object (accel_fft_send_twiddles., .accel_fft_send_twiddles..end) of size 808 bytes from 'libfftacc.dlb[accel_fft_send_twiddles.doj](seg_swco)'
+Eliminated object (adi_cache_set_disable_range., .adi_cache_set_disable_range..end) of size 114 bytes from 'libc.dlb[cache_set_range_ba.doj](seg_int_code)'
+Eliminated object (adi_cache_set_range., .adi_cache_set_range..end) of size 690 bytes from 'libc.dlb[cache_set_range_ba.doj](seg_int_code)'
+Eliminated object (__adi_wa_cces16305., .__adi_wa_cces16305..end) of size 12 bytes from 'libc.dlb[cache_set_range_ba.doj](seg_swco)'
+Eliminated object (accel_cfft_seq_small_instrs., accel_cfft_seq_small_instrs.+0x1c) of size 28 bytes from 'libfftacc.dlb[accel_cfft_seq_small.doj](seg_dmda)'
+Eliminated object (accel_cfft_seq_small., .accel_cfft_seq_small..end) of size 148 bytes from 'libfftacc.dlb[accel_cfft_seq_small.doj](seg_swco)'
+Eliminated object (__default_heap., __default_heap.+0x4) of size 4 bytes from 'libc.dlb[default_heap_ba.doj](seg_dmda)'
+Eliminated object (_heap_malloc., ._heap_malloc..end) of size 220 bytes from 'libc.dlb[heap_malloc_ba.doj](seg_swco)'
+Eliminated object (__find_block_to_free., .__find_block_to_free..end) of size 300 bytes from 'libc.dlb[heap_find_block_ba.doj](seg_swco)'
+Eliminated object (_Stdin., _Stdin.+0x34) of size 52 bytes from 'libio.dlb[xfiles_c08_any.doj](seg_dmda)'
+Eliminated object (_Stdout., _Stdout.+0x34) of size 52 bytes from 'libio.dlb[xfiles_c08_any.doj](seg_dmda)'
+Eliminated object (_Stderr., _Stderr.+0x34) of size 52 bytes from 'libio.dlb[xfiles_c08_any.doj](seg_dmda)'
+Eliminated object (_Files., ._Files..end) of size 80 bytes from 'libio.dlb[xfiles_c08_any.doj](seg_dmda)'
+Eliminated object (_convert_FILE_table., ._convert_FILE_table..end) of size 352 bytes from 'libio.dlb[convert_FILE_table_c08_any.doj](seg_swco)'
+Eliminated object (_fputc., ._fputc..end) of size 242 bytes from 'libio.dlb[fputc_c08_any.doj](seg_swco)'
+Eliminated object (fputc., .fputc..end) of size 110 bytes from 'libio.dlb[fputc_c08_any.doj](seg_swco)'
+Eliminated object (.static0, .static0.end) of size 56 bytes from 'libio.dlb[xprnt_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.0, .s.0+0x1) of size 1 bytes from 'libio.dlb[xprnt_c08_d32.doj](seg_dmda)'
+Eliminated object (.snull.1, .snull.1+0x7) of size 7 bytes from 'libio.dlb[xprnt_c08_d32.doj](seg_dmda)'
+Eliminated object (.SWITCH.5, .SWITCH.5.end) of size 224 bytes from 'libio.dlb[xprnt_c08_d32.doj](seg_dmda)'
+Eliminated object (_doprnt_32., ._doprnt_32..end) of size 1074 bytes from 'libio.dlb[xprnt_c08_d32.doj](seg_swco)'
+Eliminated object (_fflush_all., ._fflush_all..end) of size 106 bytes from 'libio.dlb[fflush_c08_any.doj](seg_swco)'
+Eliminated object (_fflush., ._fflush..end) of size 192 bytes from 'libio.dlb[fflush_c08_any.doj](seg_swco)'
+Eliminated object (fflush., .fflush..end) of size 108 bytes from 'libio.dlb[fflush_c08_any.doj](seg_swco)'
+Eliminated object (___float_divide, .___float_divide.end) of size 34 bytes from 'libcc.dlb[float_divide.doj](seg_pmco)'
+Eliminated object (__sinecosine_data, __sinecosine_data+0xa) of size 50 bytes from 'libc.dlb[sincosine_data_XI.doj](seg_dmda)'
+Eliminated object (adi_int_UninstallHandler., .adi_int_UninstallHandler..end) of size 194 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (adi_int_EnableInt., .adi_int_EnableInt..end) of size 154 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (adi_int_ClearPending., .adi_int_ClearPending..end) of size 84 bytes from 'libssl.dlb[adi_int.doj](seg_swco)'
+Eliminated object (s_BlockingEventFlags.1., s_BlockingEventFlags.1.+0x4) of size 4 bytes from 'libssl.dlb[mcapi_trans.doj](seg_dmda)'
+Eliminated object (.SWITCH.2, .SWITCH.2.end) of size 20 bytes from 'libssl.dlb[mcapi_trans.doj](seg_dmda)'
+Eliminated object (_adi_mcapi_RunBlocking., ._adi_mcapi_RunBlocking..end) of size 898 bytes from 'libssl.dlb[mcapi_trans.doj](seg_swco)'
+Eliminated object (_adi_mcapi_lookupRequest., ._adi_mcapi_lookupRequest..end) of size 112 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_getEndptChanHandle., ._adi_mcapi_getEndptChanHandle..end) of size 66 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_getChannelEndpoint., ._adi_mcapi_getChannelEndpoint..end) of size 210 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_getAbsConnection., ._adi_mcapi_getAbsConnection..end) of size 206 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_FindFirstSet., ._adi_mcapi_FindFirstSet..end) of size 68 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_getEndpointID., ._adi_mcapi_getEndpointID..end) of size 90 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_createLocalEndpoint., ._adi_mcapi_createLocalEndpoint..end) of size 828 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_createAnonLocalEndpt., ._adi_mcapi_createAnonLocalEndpt..end) of size 306 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_deleteLocalEndpoint., ._adi_mcapi_deleteLocalEndpoint..end) of size 80 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_dequeueLocal., ._adi_mcapi_dequeueLocal..end) of size 96 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_queueCount., ._adi_mcapi_queueCount..end) of size 166 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_isAwaitingResponse., ._adi_mcapi_isAwaitingResponse..end) of size 164 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_waitForLocalCreate., ._adi_mcapi_waitForLocalCreate..end) of size 254 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_timeoutCancelRequest., ._adi_mcapi_timeoutCancelRequest..end) of size 138 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_tryCancelRequest., ._adi_mcapi_tryCancelRequest..end) of size 260 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_allocRequest., ._adi_mcapi_allocRequest..end) of size 220 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_findRequest., ._adi_mcapi_findRequest..end) of size 84 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_searchReqsForBuffer., ._adi_mcapi_searchReqsForBuffer..end) of size 220 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_releaseRequest., ._adi_mcapi_releaseRequest..end) of size 114 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_makeEndpointID., ._adi_mcapi_makeEndpointID..end) of size 76 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_queryLastRequest., ._adi_mcapi_queryLastRequest..end) of size 76 bytes from 'libssl.dlb[Endpoint.doj](seg_swco)'
+Eliminated object (_adi_mcapi_getNumFreeIntBuffs., ._adi_mcapi_getNumFreeIntBuffs..end) of size 18 bytes from 'libssl.dlb[RemoteICC.doj](seg_swco)'
+Eliminated object (__simd_memsetD., .__simd_memsetD..end) of size 312 bytes from 'libc.dlb[memset_XI_SIMD_ba.doj](seg_swco)'
+Eliminated object (strncpy., .strncpy..end) of size 58 bytes from 'libc.dlb[strncpy_char8_ba.doj](seg_pmco)'
+Eliminated object (_heap_free., ._heap_free..end) of size 30 bytes from 'libc.dlb[heap_free_ba.doj](seg_swco)'
+Eliminated object (_adi_osal_gHandlerTableSize., _adi_osal_gHandlerTableSize.+0x4) of size 4 bytes from 'libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)'
+Eliminated object (adi_rtl_deactivate_dispatched_handler., .adi_rtl_deactivate_dispatched_handler..end) of size 104 bytes from 'libc.dlb[dispatched_handler_deactivate_ba.doj](seg_pmco)'
+Eliminated object (.__clear_imask, .__clear_imask.end) of size 320 bytes from 'libc.dlb[dispatched_handler_deactivate_ba.doj](seg_pmco)'
+Eliminated object (accel_fft_error_handler_null., .accel_fft_error_handler_null..end) of size 12 bytes from 'libfftacc.dlb[accel_fft_error_handler_null.doj](seg_swco)'
+Eliminated object (ChannelInfo., ChannelInfo.+0x2d0) of size 720 bytes from 'libssl.dlb[adi_dma.doj](seg_dmda)'
+Eliminated object (StreamInfo., StreamInfo.+0x20) of size 32 bytes from 'libssl.dlb[adi_dma.doj](seg_dmda)'
+Eliminated object (.sASSERT.0, .sASSERT.0+0xbb) of size 187 bytes from 'libssl.dlb[adi_dma.doj](seg_dmda)'
+Eliminated object (.sASSERT.1, .sASSERT.1+0xb9) of size 185 bytes from 'libssl.dlb[adi_dma.doj](seg_dmda)'
+Eliminated object (ValidateBuffer., .ValidateBuffer..end) of size 262 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateChannelHandle., .ValidateChannelHandle..end) of size 102 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (DmaErrorIntHandler., .DmaErrorIntHandler..end) of size 154 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (DmaDataIntHandler., .DmaDataIntHandler..end) of size 96 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ResetDmaRegs., .ResetDmaRegs..end) of size 152 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateStreamHandle., .ValidateStreamHandle..end) of size 118 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (DisableXfer., .DisableXfer..end) of size 174 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaConfigToMemSize., .MDmaConfigToMemSize..end) of size 52 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MoveStandbyToActive., .MoveStandbyToActive..end) of size 126 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (DisableSrcListInt., .DisableSrcListInt..end) of size 78 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PrepareDestListDesc., .PrepareDestListDesc..end) of size 212 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PrepareSrcListDesc., .PrepareSrcListDesc..end) of size 318 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (GetMaxPSize., .GetMaxPSize..end) of size 78 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ResetMDmaChannel., .ResetMDmaChannel..end) of size 148 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidatePDmaChannel., .ValidatePDmaChannel..end) of size 148 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaManualXferIntHandler., .PDmaManualXferIntHandler..end) of size 120 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaConfigToMemSize., .PDmaConfigToMemSize..end) of size 52 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ResetPDmaWorkUnit., .ResetPDmaWorkUnit..end) of size 146 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ResetPDmaChannel., .ResetPDmaChannel..end) of size 324 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaFlushWorkUnitDescriptor., .PDmaFlushWorkUnitDescriptor..end) of size 48 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (LoadPDmaRegsWithWorkUnit., .LoadPDmaRegsWithWorkUnit..end) of size 682 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaOneShotListXferIntHandler., .PDmaOneShotListXferIntHandler..end) of size 502 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidatePDmaListBuffer., .ValidatePDmaListBuffer..end) of size 110 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaEnableListXfer., .PDmaEnableListXfer..end) of size 658 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidatePDmaCircBuffer., .ValidatePDmaCircBuffer..end) of size 188 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetSlavePortNumber., .adi_pdma_SetSlavePortNumber..end) of size 236 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_EnableStreaming., .adi_pdma_EnableStreaming..end) of size 124 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_EnableBufferRepeat., .adi_pdma_EnableBufferRepeat..end) of size 150 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetSync., .adi_pdma_SetSync..end) of size 178 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetPeripheralIntFwd., .adi_pdma_SetPeripheralIntFwd..end) of size 104 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetPeripheralReqFwd., .adi_pdma_SetPeripheralReqFwd..end) of size 178 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetMSize., .adi_pdma_SetMSize..end) of size 184 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_SetPSize., .adi_pdma_SetPSize..end) of size 214 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_EnableXfer., .adi_pdma_EnableXfer..end) of size 188 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_DisableXfer., .adi_pdma_DisableXfer..end) of size 234 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (PDmaEnableManualXfer., .PDmaEnableManualXfer..end) of size 138 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_UpdateDescriptor., .adi_pdma_UpdateDescriptor..end) of size 410 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_PeripheralCircWrite., .adi_pdma_PeripheralCircWrite..end) of size 210 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_PeripheralCircRead., .adi_pdma_PeripheralCircRead..end) of size 210 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_GetSID., .adi_pdma_GetSID..end) of size 104 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ResetMDmaStream., .ResetMDmaStream..end) of size 158 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (GetMaxMSizePSize., .GetMaxMSizePSize..end) of size 254 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaPrepareOneShot., .MDmaPrepareOneShot..end) of size 338 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (InitForListMode., .InitForListMode..end) of size 76 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (IsLastInList., .IsLastInList..end) of size 122 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaEnableArrayXfer., .MDmaEnableArrayXfer..end) of size 262 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaOneShotXferIntHandler., .MDmaOneShotXferIntHandler..end) of size 222 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaArrayXferIntHandler., .MDmaArrayXferIntHandler..end) of size 154 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaListXferLoadDmaRegs., .MDmaListXferLoadDmaRegs..end) of size 406 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaEnableListDescXfer., .MDmaEnableListDescXfer..end) of size 164 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaListDescXferIntHandler., .MDmaListDescXferIntHandler..end) of size 546 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateDescList., .ValidateDescList..end) of size 334 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateStreamDesc., .ValidateStreamDesc..end) of size 422 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaUpdateXferStatus., .MDmaUpdateXferStatus..end) of size 570 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateDescArray1D., .ValidateDescArray1D..end) of size 216 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (ValidateDescArray2D., .ValidateDescArray2D..end) of size 222 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_IsCopyInProgress., .adi_mdma_IsCopyInProgress..end) of size 128 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Disable., .adi_mdma_Disable..end) of size 120 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_CopyCircular1D., .adi_mdma_CopyCircular1D..end) of size 506 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Copy2D., .adi_mdma_Copy2D..end) of size 482 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_GetChannelSID., .adi_mdma_GetChannelSID..end) of size 138 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_StopCircular1D., .adi_mdma_StopCircular1D..end) of size 318 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_FlushCache., .adi_dma_FlushCache..end) of size 530 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (LoadAsListDescWorkUnit., .LoadAsListDescWorkUnit..end) of size 1176 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_PeripheralWrite., .adi_pdma_PeripheralWrite..end) of size 186 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_PeripheralRead., .adi_pdma_PeripheralRead..end) of size 190 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaLoadRegsOneShotCircXfer., .MDmaLoadRegsOneShotCircXfer..end) of size 358 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaEnableOneShotCircXfer., .MDmaEnableOneShotCircXfer..end) of size 150 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (AddToChain., .AddToChain..end) of size 368 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_CopyQueueList., .adi_mdma_CopyQueueList..end) of size 988 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaPrepareArray1D., .MDmaPrepareArray1D..end) of size 566 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Copy1DArray., .adi_mdma_Copy1DArray..end) of size 330 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaPrepareArray2D., .MDmaPrepareArray2D..end) of size 570 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Copy2DArray., .adi_mdma_Copy2DArray..end) of size 330 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (RegisterErrorIntWithDispatcher., .RegisterErrorIntWithDispatcher..end) of size 108 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (UninstallDmaErrorHandler., .UninstallDmaErrorHandler..end) of size 84 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_Close., .adi_pdma_Close..end) of size 280 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_ManualLoad., .adi_pdma_ManualLoad..end) of size 934 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Close., .adi_mdma_Close..end) of size 470 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (RegisterDataIntWithDispatcher., .RegisterDataIntWithDispatcher..end) of size 118 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_EnableChannelInterrupt., .adi_mdma_EnableChannelInterrupt..end) of size 364 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (MDmaCrcModeOneShotXfer., .MDmaCrcModeOneShotXfer..end) of size 554 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Copy1D., .adi_mdma_Copy1D..end) of size 652 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_pdma_Open., .adi_pdma_Open..end) of size 602 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_mdma_Open., .adi_mdma_Open..end) of size 872 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_ConfigTriggerIn., .adi_dma_ConfigTriggerIn..end) of size 312 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_ConfigTriggerOut., .adi_dma_ConfigTriggerOut..end) of size 238 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_UpdateCallback., .adi_dma_UpdateCallback..end) of size 170 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_GetCurrentDesc., .adi_dma_GetCurrentDesc..end) of size 96 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_GetCurrentAddr., .adi_dma_GetCurrentAddr..end) of size 96 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_GetCurrentXCount., .adi_dma_GetCurrentXCount..end) of size 96 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_dma_GetCurrentYCount., .adi_dma_GetCurrentYCount..end) of size 96 bytes from 'libssl.dlb[adi_dma.doj](seg_swco)'
+Eliminated object (adi_osal_SemGetObjSize., .adi_osal_SemGetObjSize..end) of size 16 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (_adi_osal_InterruptsEnable., ._adi_osal_InterruptsEnable..end) of size 42 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (_adi_osal_InterruptsDisable., ._adi_osal_InterruptsDisable..end) of size 56 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemCreateStatic., .adi_osal_SemCreateStatic..end) of size 300 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemCreate., .adi_osal_SemCreate..end) of size 250 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemDestroyStatic., .adi_osal_SemDestroyStatic..end) of size 122 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemDestroy., .adi_osal_SemDestroy..end) of size 82 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemPend., .adi_osal_SemPend..end) of size 412 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_SemPost., .adi_osal_SemPost..end) of size 146 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (_adi_osal_IsMemoryAligned., ._adi_osal_IsMemoryAligned..end) of size 30 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (_adi_osal_IsCurrentLevelISR., ._adi_osal_IsCurrentLevelISR..end) of size 42 bytes from 'libosal_noos.dlb[adi_osal_noos_sem.doj](seg_swco)'
+Eliminated object (adi_osal_EnterCriticalRegion., .adi_osal_EnterCriticalRegion..end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (adi_osal_ExitCriticalRegion., .adi_osal_ExitCriticalRegion..end) of size 26 bytes from 'libosal_noos.dlb[adi_osal_noos_arch_c.doj](seg_swco)'
+Eliminated object (TruInfo., TruInfo.+0xc) of size 12 bytes from 'libssl.dlb[adi_tru.doj](seg_dmda)'
+Eliminated object (adi_tru_RaiseTriggerMultiple., .adi_tru_RaiseTriggerMultiple..end) of size 108 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_UnInit., .adi_tru_UnInit..end) of size 32 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (ValidateTruHandle., .ValidateTruHandle..end) of size 98 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_Open., .adi_tru_Open..end) of size 278 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_TriggerRoute., .adi_tru_TriggerRoute..end) of size 106 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_Enable., .adi_tru_Enable..end) of size 144 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_Close., .adi_tru_Close..end) of size 100 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (adi_tru_ConfigTriggerMaster., .adi_tru_ConfigTriggerMaster..end) of size 88 bytes from 'libssl.dlb[adi_tru.doj](seg_swco)'
+Eliminated object (___divrem_s32, .___divrem_s32.end) of size 114 bytes from 'libcc.dlb[divrem_s32.doj](seg_pmco)'
+Eliminated object (_flushwritebuf., ._flushwritebuf..end) of size 302 bytes from 'libio.dlb[xflushwritebuf_c08_any.doj](seg_swco)'
+Eliminated object (.s.0, .s.0+0x1) of size 1 bytes from 'libio.dlb[xparse_format_c08_any.doj](seg_dmda)'
+Eliminated object (.sdiouxX.1, .sdiouxX.1+0x7) of size 7 bytes from 'libio.dlb[xparse_format_c08_any.doj](seg_dmda)'
+Eliminated object (_parse_format., ._parse_format..end) of size 826 bytes from 'libio.dlb[xparse_format_c08_any.doj](seg_swco)'
+Eliminated object (.s.0, .s.0+0x2) of size 2 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.1, .s.1+0x2) of size 2 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.2, .s.2+0x2) of size 2 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.sNaN.33, .sNaN.33+0x4) of size 4 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.sInf.34, .sInf.34+0x4) of size 4 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_dmda)'
+Eliminated object (_mantissa_to_hex., ._mantissa_to_hex..end) of size 136 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_swco)'
+Eliminated object (_print_a_float_32., ._print_a_float_32..end) of size 1160 bytes from 'libio.dlb[xprint_a_float_c08_d32.doj](seg_swco)'
+Eliminated object (_pvLookupTable., _pvLookupTable.+0x18) of size 24 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (_pwr10., _pwr10.+0x28) of size 40 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.0, .s.0+0x2) of size 2 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.1, .s.1+0x2) of size 2 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s.2, .s.2+0x2) of size 2 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.sNaN.37, .sNaN.37+0x4) of size 4 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.sInf.38, .sInf.38+0x4) of size 4 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (.s0.39, .s0.39+0x2) of size 2 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_dmda)'
+Eliminated object (_print_float_32., ._print_float_32..end) of size 2288 bytes from 'libio.dlb[xprint_float_c08_d32.doj](seg_swco)'
+Eliminated object (.s.0, .s.0+0x2) of size 2 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (.s.1, .s.1+0x2) of size 2 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (.s.2, .s.2+0x2) of size 2 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (.s0x.3, .s0x.3+0x3) of size 3 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (.s0X.4, .s0X.4+0x3) of size 3 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (.s.5, .s.5+0x1) of size 1 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_dmda)'
+Eliminated object (_print_fixed., ._print_fixed..end) of size 1174 bytes from 'libio.dlb[xprint_fixed_c08_any.doj](seg_swco)'
+Eliminated object (_do_output., ._do_output..end) of size 914 bytes from 'libio.dlb[xdo_output_c08_any.doj](seg_swco)'
+Eliminated object (strlen., .strlen..end) of size 48 bytes from 'libcc.dlb[strlen_char8_ba.doj](seg_pmco)'
+Eliminated object (_put_string., ._put_string..end) of size 124 bytes from 'libio.dlb[xput_string_c08_any.doj](seg_swco)'
+Eliminated object (_dev_write., ._dev_write..end) of size 328 bytes from 'libio.dlb[dev_write_c08_any.doj](seg_swco)'
+Eliminated object (adi_osal_EventGroupGetObjSize., .adi_osal_EventGroupGetObjSize..end) of size 16 bytes from 'libosal_noos.dlb[adi_osal_noos_event.doj](seg_swco)'
+Eliminated object (adi_osal_EventGroupCreate., .adi_osal_EventGroupCreate..end) of size 228 bytes from 'libosal_noos.dlb[adi_osal_noos_event.doj](seg_swco)'
+Eliminated object (adi_osal_EventGroupDestroyStatic., .adi_osal_EventGroupDestroyStatic..end) of size 134 bytes from 'libosal_noos.dlb[adi_osal_noos_event.doj](seg_swco)'
+Eliminated object (adi_osal_EventGroupDestroy., .adi_osal_EventGroupDestroy..end) of size 82 bytes from 'libosal_noos.dlb[adi_osal_noos_event.doj](seg_swco)'
+Eliminated object (adi_osal_EventPend., .adi_osal_EventPend..end) of size 440 bytes from 'libosal_noos.dlb[adi_osal_noos_event.doj](seg_swco)'
+Eliminated object (___memcpyDD, .___memcpyDD.end) of size 62 bytes from 'libcc.dlb[memcpy.doj](seg_pmco)'
+Eliminated object (wb_pm., .wb_pm..end) of size 28 bytes from 'libc.dlb[flush_data_buffer_ba.doj](seg_swco)'
+Eliminated object (wb_dm., .wb_dm..end) of size 28 bytes from 'libc.dlb[flush_data_buffer_ba.doj](seg_swco)'
+Eliminated object (wb_dmandpm., .wb_dmandpm..end) of size 28 bytes from 'libc.dlb[flush_data_buffer_ba.doj](seg_swco)'
+Eliminated object (adi_rtl_internal_to_system_addr., .adi_rtl_internal_to_system_addr..end) of size 142 bytes from 'libcc.dlb[translate_internal_to_system_addr_ba.doj](seg_swco)'
+Eliminated object (adi_rtl_nested_int_disable_count., adi_rtl_nested_int_disable_count.+0x4) of size 4 bytes from 'libc.dlb[rtl_disable_interrupts_ba.doj](seg_dmda)'
+Eliminated object (adi_rtl_interrupt_state., adi_rtl_interrupt_state.+0x4) of size 4 bytes from 'libc.dlb[rtl_disable_interrupts_ba.doj](seg_dmda)'
+Eliminated object (adi_rtl_disable_interrupts., .adi_rtl_disable_interrupts..end) of size 66 bytes from 'libc.dlb[rtl_disable_interrupts_ba.doj](seg_swco)'
+Eliminated object (adi_rtl_reenable_interrupts., .adi_rtl_reenable_interrupts..end) of size 56 bytes from 'libc.dlb[rtl_disable_interrupts_ba.doj](seg_swco)'
+Eliminated object (_parse_field., ._parse_field..end) of size 186 bytes from 'libio.dlb[xparse_field_c08_any.doj](seg_swco)'
+Eliminated object (strchr., .strchr..end) of size 102 bytes from 'libc.dlb[strchr_ba.doj](seg_swco)'
+Eliminated object (__hex_digits_lower., __hex_digits_lower.+0x11) of size 17 bytes from 'libio.dlb[xhexdigits_c08_any.doj](seg_dmda)'
+Eliminated object (__hex_digits_upper., __hex_digits_upper.+0x11) of size 17 bytes from 'libio.dlb[xhexdigits_c08_any.doj](seg_dmda)'
+Eliminated object (_isnanf, ._isnanf.end) of size 42 bytes from 'libc.dlb[isnanf.doj](seg_swco)'
+Eliminated object (_isinff, ._isinff.end) of size 36 bytes from 'libc.dlb[isinff.doj](seg_pmco)'
+Eliminated object (_long_to_string., ._long_to_string..end) of size 194 bytes from 'libio.dlb[xlong_to_string_c08_any.doj](seg_swco)'
+Eliminated object (___trunc_ftoi, .___trunc_ftoi.end) of size 54 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___dtof, .___dtof.end) of size 40 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___divsf3, .___divsf3.end) of size 60 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (___floatunssisf2, .___floatunssisf2.end) of size 48 bytes from 'libcc.dlb[flt_sprt.doj](seg_pmco)'
+Eliminated object (_long_long_to_string., ._long_long_to_string..end) of size 280 bytes from 'libio.dlb[xlonglong_to_string_c08_any.doj](seg_swco)'
+Eliminated object (_pad., ._pad..end) of size 110 bytes from 'libio.dlb[xpad_c08_any.doj](seg_swco)'
+Eliminated object (__devtabs_initialized., __devtabs_initialized.+0x4) of size 4 bytes from 'libio.dlb[dev_init_c08_any.doj](seg_dmda)'
+Eliminated object (__init_devdrv., .__init_devdrv..end) of size 378 bytes from 'libio.dlb[dev_init_c08_any.doj](seg_swco)'
+Eliminated object (__init_devtabs., .__init_devtabs..end) of size 148 bytes from 'libio.dlb[dev_init_c08_any.doj](seg_swco)'
+Eliminated object (DeviceIOtable., DeviceIOtable.+0xc8) of size 200 bytes from 'libio.dlb[devIOtab_c08_any.doj](seg_dmda)'
+Eliminated object (DevDrvTable., .DevDrvTable..end) of size 40 bytes from 'libio.dlb[devtab_c08_any.doj](seg_dmda)'
+Eliminated object (___lib_dtof, .___lib_dtof.end) of size 6 bytes from 'libcc.dlb[lib_ldtof.doj](seg_pmco)'
+Eliminated object (__divrem_s64., .__divrem_s64..end) of size 102 bytes from 'libcc.dlb[divrem_s64_char8_ba.doj](seg_pmco)'
+Eliminated object (primio_deventry_extension., primio_deventry_extension.+0xc) of size 12 bytes from 'libio.dlb[primiolibtab_c08_any.doj](seg_dmda)'
+Eliminated object (primio_deventry., .primio_deventry..end) of size 60 bytes from 'libio.dlb[primiolibtab_c08_any.doj](seg_dmda)'
+Eliminated object (__divrem_u64., .__divrem_u64..end) of size 368 bytes from 'libcc.dlb[divrem_u64_char8_ba.doj](seg_pmco)'
+Eliminated object (_primio_ioctl., ._primio_ioctl..end) of size 16 bytes from 'libio.dlb[primiolib_c08_any.doj](seg_swco)'
+Eliminated object (_primio_init., ._primio_init..end) of size 18 bytes from 'libio.dlb[primiolib_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_OPEN., .PRIMITIVE_OPEN..end) of size 148 bytes from 'libio.dlb[xprim_open_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_CLOSE., .PRIMITIVE_CLOSE..end) of size 112 bytes from 'libio.dlb[xprim_close_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_WRITE2., .PRIMITIVE_WRITE2..end) of size 146 bytes from 'libio.dlb[xprim_write2_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_READ., .PRIMITIVE_READ..end) of size 140 bytes from 'libio.dlb[xprim_read_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_SEEK., .PRIMITIVE_SEEK..end) of size 196 bytes from 'libio.dlb[xprim_seek_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_REMOVE., .PRIMITIVE_REMOVE..end) of size 148 bytes from 'libio.dlb[xprim_remove_c08_any.doj](seg_swco)'
+Eliminated object (PRIMITIVE_RENAME., .PRIMITIVE_RENAME..end) of size 172 bytes from 'libio.dlb[xprim_rename_c08_any.doj](seg_swco)'
+Eliminated object (PrimIOCB., PrimIOCB.+0x1c) of size 28 bytes from 'libio.dlb[xprim_c08_any.doj](seg_dmda)'
+Eliminated object (__primIO, .__primIO.end) of size 12 bytes from 'libio.dlb[xprim_c08_any.doj](seg_swco)'
+]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FDEE8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio0']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[cache_set_range_ba.doj](seg_int_data)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FDC48' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio1']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FDD28' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio1_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FC908' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio2']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FD9A8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio2_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FD008' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio3']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FD8C8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_data_prio3_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FC128' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio0']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[cache_set_range_ba.doj](seg_int_data)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FC9E8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio1']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='045FCC88' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio1_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='044C53B8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio2']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7E18' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio2_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7C58' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio3']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A79B8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block1_data_prio3_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7478' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_nw_code_prio0']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_int_code)
+    app_startup.doj(seg_int_code)
+    libc.dlb[cache_set_range_ba.doj](seg_int_code)
+    libc.dlb[flush_data_buffer_ba.doj](seg_int_code)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7B78' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_nw_code_prio1']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7718' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_nw_code_prio2']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate_ba.doj](seg_pmco)
+    libc.dlb[dispatched_handler_unregister_ba.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A71D8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_nw_code_prio3']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_bad_reset_detected.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[adi_ilop_detected.doj](seg_pmco)
+    libc.dlb[adi_parity_error_detected.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate_ba.doj](seg_pmco)
+    libc.dlb[dispatched_handler_unregister_ba.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7558' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block0_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_int_code)
+    app_startup.doj(seg_int_code)
+    libc.dlb[cache_set_range_ba.doj](seg_int_code)
+    libc.dlb[flush_data_buffer_ba.doj](seg_int_code)
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_bad_reset_detected.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[adi_ilop_detected.doj](seg_pmco)
+    libc.dlb[adi_parity_error_detected.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate_ba.doj](seg_pmco)
+    libc.dlb[dispatched_handler_unregister_ba.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A6F38' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block2_data']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[cache_set_range_ba.doj](seg_int_data)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7D38' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block2_data_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7018' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_data']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[cache_set_range_ba.doj](seg_int_data)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A70F8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_block3_data_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A77F8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_l2_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_bad_reset_detected.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[adi_ilop_detected.doj](seg_pmco)
+    libc.dlb[adi_parity_error_detected.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate_ba.doj](seg_pmco)
+    libc.dlb[dispatched_handler_unregister_ba.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7638' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_l2_data']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A72B8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_l2_data_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7A98' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_l2_uncached']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_l2_uncached)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A7398' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_nw_code']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_pmco)
+    app_startup.doj(seg_pmco)
+    libcc.dlb[memcpy_char8_ba.doj](seg_pmco)
+    libc.dlb[adi_bad_reset_detected.doj](seg_pmco)
+    libc.dlb[adi_fatal_error.doj](seg_pmco)
+    libc.dlb[adi_ilop_detected.doj](seg_pmco)
+    libc.dlb[adi_parity_error_detected.doj](seg_pmco)
+    libc.dlb[dispatched_handler_activate_ba.doj](seg_pmco)
+    libc.dlb[dispatched_handler_unregister_ba.doj](seg_pmco)
+    libc.dlb[fatal_error_ba.doj](seg_pmco)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_pmco)
+    libc.dlb[no_dispatched_handler.doj](seg_pmco)
+    libc.dlb[set_c.doj](seg_pmco)
+    libosal_noos.dlb[adi_osal_noos_arch_a.doj](seg_pmco)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='048A78D8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_cpp_ctors_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    app_startup.doj(seg_ctdml)
+    app_startup.doj(seg_ctdml)
+    libc.dlb[set_c.doj](seg_ctdml)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='057DE228' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_data']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='057DF1E8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_data_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='057DEAE8' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_data2']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    src\adi_interface.doj(seg_dmda)
+    system\mcapi\GeneratedSources\mcapi_config.doj(seg_dmda)
+    system\startup_ldf\app_heaptab.doj(seg_dmda)
+    libc.dlb[adi_fatal_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_data_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_reg_ba.doj](seg_dmda)
+    libc.dlb[dispatched_handler_table_ba.doj](seg_dmda)
+    libc.dlb[exit_ba.doj](seg_dmda)
+    libc.dlb[flush_data_buffer_ba.doj](seg_dmda)
+    libc.dlb[free_ba.doj](seg_dmda)
+    libc.dlb[heap_find_block_ba.doj](seg_dmda)
+    libc.dlb[heap_install_ba.doj](seg_dmda)
+    libc.dlb[heap_lookup_ba.doj](seg_dmda)
+    libc.dlb[heap_malloc_ba.doj](seg_dmda)
+    libc.dlb[heap_num_ba.doj](seg_dmda)
+    libc.dlb[heap_setup_ba.doj](seg_dmda)
+    libc.dlb[heaps_ba.doj](seg_dmda)
+    libc.dlb[malloc_ba.doj](seg_dmda)
+    libc.dlb[powf_ba.doj](seg_dmda)
+    libc.dlb[sinhf_ba.doj](seg_dmda)
+    libc.dlb[xatexit_ba.doj](seg_dmda)
+    libio.dlb[dev_write_c08_any.doj](seg_dmda)
+    libio.dlb[fflush_c08_any.doj](seg_dmda)
+    libio.dlb[printf_c08_d32.doj](seg_dmda)
+    libio.dlb[xlong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xlonglong_to_string_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_close_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_open_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_read_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_remove_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_rename_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_seek_c08_any.doj](seg_dmda)
+    libio.dlb[xprim_write2_c08_any.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_c.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_arch_int_table.doj](seg_dmda)
+    libosal_noos.dlb[adi_osal_noos_init.doj](seg_dmda)
+    libssl.dlb[Endpoint.doj](seg_dmda)
+    libssl.dlb[RemoteICC.doj](seg_dmda)
+    libssl.dlb[adi_sec.doj](seg_dmda)
+    libssl.dlb[mcapi.doj](seg_dmda)
+    libssl.dlb[mcapi_trans.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+<MSG id='057DDF88' mid='li3050' type='Informational' suppressed=''>
+<TEXT><![CDATA[Input section(s) were excluded from output section 'dxe_sdram_data2_bw']]></TEXT>
+<EXTENDED_INFO><![CDATA[The following input section(s) were excluded
+    libc.dlb[exit_value.doj](seg_dmda)
+    libc.dlb[int_dispatcher_215XX_ba.doj](seg_dmda)
+    libc.dlb[xexit.doj](seg_dmda)]]></EXTENDED_INFO>
+</MSG>
+</DOCUMENT>
